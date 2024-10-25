@@ -11,7 +11,7 @@ const LoginPage = () => {
 
     const handleLogin = (e) => {
         e.preventDefault();
-        if (email === 'andronova@andro.com' && password === 'redbull') {
+        if (email === 'andronova@andro.com' && password === 'andronova') {
             navigate('/FaceCapture');
         } else {
             alert('Invalid credentials');
@@ -122,6 +122,9 @@ const LoginPage = () => {
                 >
                     <p className="text-indigo-600">
                         Don't have an account? <a href="#" className="text-indigo-600 hover:text-indigo-500 transition">Sign Up</a>
+                    </p>
+                    <p className="text-red-600 text-lg">
+                        <br /><b>Sample Email: <span className="text-red-600">andronova@andro.com</span> <br /> Sample Pass: <span className="text-red-600">andronova</span></b>
                     </p>
                 </motion.div>
             </motion.div>

@@ -9,14 +9,14 @@ import tempfile
 import os
 import traceback
 
-GOOGLE_API_KEY = 'AIzaSyAgxiRhij1ZJZmpHSSIBh1wmDmWfiU7k-Q'
+GOOGLE_API_KEY = 'AIzaSyB4XvDYYCx0ejGghK0SGCmkJTnP2CqIVPM'
 genai.configure(api_key=GOOGLE_API_KEY)
 
 app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000","http://localhost:3001","http://localhost:3002","http://localhost:3003","http://127.0.0.1:3001","http://127.0.0.1:3002","http://127.0.0.1:3003"],
+    allow_origins=["https://vibeout-alpha.vercel.app/","http://localhost:3000", "http://127.0.0.1:3000","http://localhost:3001","http://localhost:3002","http://localhost:3003","http://127.0.0.1:3001","http://127.0.0.1:3002","http://127.0.0.1:3003"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

@@ -314,7 +314,7 @@ const UploadView = ({ onUploadSuccess }) => {
         formData.append('prompt', 'Analyze the video and must provide a JSON report with workout exercises minimum 5 (name, sets, reps), facial emotions minimum 10 (emotion, timestamp), voice emotions minimum 8 (emotion, timestamp), and nutrition plan (meal, time, food) dont keep any field empty .. try to keep all fields with data');
 
         try {
-            const response = await axios.post('http://127.0.0.1:8000/process_video/', formData, {
+            const response = await axios.post('https://backend-0in2.onrender.com/process_video', formData, {
                 headers: { 'Content-Type': 'multipart/form-data' },
                 onUploadProgress: (progressEvent) => {
                     const percentCompleted = Math.round((progressEvent.loaded * 100) / progressEvent.total);
