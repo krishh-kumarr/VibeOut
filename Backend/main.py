@@ -9,7 +9,7 @@ import tempfile
 import os
 import traceback
 
-GOOGLE_API_KEY = 'AIzaSyB4XvDYYCx0ejGghK0SGCmkJTnP2CqIVPM'
+GOOGLE_API_KEY = 'AIzaSyC_b9nz6njpKFSNZFUsqzi-PhpBg-aWkzA'
 genai.configure(api_key=GOOGLE_API_KEY)
 
 app = FastAPI()
@@ -29,9 +29,8 @@ generation_config = {
     "max_output_tokens": 8192,
     "response_mime_type": "application/json",
 }
-
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-pro-exp-0827",
+    model_name="gemini-1.5-pro",
     generation_config=generation_config,
 )
 
