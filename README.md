@@ -48,14 +48,6 @@
   </tr>
 </table>
 
-<p align="center">
-  <a href="#features">Features</a> •
-  <a href="#screenshots">Screenshots</a> •
-  <a href="#tech-stack">Tech Stack</a> •
-  <a href="#getting-started">Getting Started</a> •
-  <a href="#developers">Developers</a>
-</p>
-
 ---
 <p align="center">
   <img src="https://media.giphy.com/media/pnL9rPWicDvpabMMZL/giphy.gif" alt="Mochi Jump Rope Animation" width="300" />
