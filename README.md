@@ -52,7 +52,7 @@
 <p align="center">
   <img src="https://media.giphy.com/media/pnL9rPWicDvpabMMZL/giphy.gif" alt="Mochi Jump Rope Animation" width="300" />
   <br>
-  <i>Stay motivated with fun workout animations</i>
+  <i>Stay motivated with fun workout recommendations</i>
 </p>
 
 ## ✨ Features
